@@ -1,0 +1,14 @@
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+
+WORKDIR /app
+
+COPY requirements.txt /tmp/
+
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --requirement /tmp/requirements.txt
+
+EXPOSE 8080:8080
+
+CMD uvicorn main:app --host 0.0.0.0 --port 8080 --reload
+
+COPY ./app /app
