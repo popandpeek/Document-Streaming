@@ -20,11 +20,11 @@ Instructions
 	*VS Code with Docker extensions
 	
 2. Download the following images from Docker Hub
-	a. mongo:latest
-	b. mongo-express:latest
-	c. bitnmai/zookeeper:latest
-	d. bitnami/kafka:latest
-	e. jupyter/pyspark-notebook:spark-2
+	..a. mongo:latest
+	..b. mongo-express:latest
+	..c. bitnmai/zookeeper:latest
+	..d. bitnami/kafka:latest
+	..e. jupyter/pyspark-notebook:spark-2
 
 3. Build local Docker containers
 	a. Go to API-Ingest folder -> build-command.txt -> In terminal -> docker build -t api-ingest .
