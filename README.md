@@ -15,9 +15,9 @@ This project shows the deployment of a streaming architecture using Docker conta
 Instructions
 
 1. Computing Set-up
-	a. This project requires Docker Desktop to be installed and working with Docker Hub - https://www.docker.com/101-tutorial/
-		i. Ubuntu or WSL on Windows
-	b. VS Code with Docker extensions
+	* This project requires Docker Desktop to be installed and working with Docker Hub - https://www.docker.com/101-tutorial/
+		* Ubuntu or WSL on Windows
+	*VS Code with Docker extensions
 	
 2. Download the following images from Docker Hub
 	a. mongo:latest
